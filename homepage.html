@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homes Training | Home page</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+    />
+    <!--[if (lt IE 9)
+      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script
+    ><![endif]-->
+    <script src="https://use.fontawesome.com/d1819ff428.js"></script>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav__top">
+        <div class="nav__top--wrapper">
+          <ul>
+            <li>Call us now <span>1800 333 888</span></li>
+            <li><a href="#">Language</a></li>
+            <li><a href="#">Student/Trainer Portal</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav__main">
+        <div class="nav__main--wrapper">
+          <div class="logo"><img src="/images/logo.svg" alt="" /></div>
+          <ul class="nav__main--wrapper__links">
+            <li><a href="#">Our Course</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+
+          <button
+            class="btn-mobile"
+            onclick="mobile()"
+            aria-label="Menu button"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <ul class="nav__mobile">
+        <li><a href="#">Our Course</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </header>
+
+    <main class="wrapper">
+      <section class="hero">
+        <div class="hero__inner">
+          <h1>Search for location and course</h1>
+          <form action="">
+            <label for="state">
+              State/Territory
+            </label>
+            <select class="state" name="state" id="state" aria-invalid="false">
+              <option value="">State/Territory</option>
+              <option value="id">I live in Indonesia</option>
+              <option value="jp">I live in Japan</option>
+              <option value="my">I live in Malaysia</option>
+              <option value="kr">I live in South Korea</option>
+            </select>
+
+            <label for="course">
+              Course Offered
+            </label>
+            <select
+              class="course"
+              name="course"
+              id="course"
+              aria-invalid="false"
+            >
+              <option value="">Course Offered</option>
+              <option value="o1">Property Management Basic</option>
+              <option value="o2">Property Management Beginner</option>
+              <option value="o3">Property Management Advanced</option>
+              <option value="04">Property Management Expert</option>
+            </select>
+
+            <button type="submit">Search</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="course">
+        <div class="course__inner">
+          <div class="course__inner--box">
+            <div class="course__inner--box__p">
+              <img src="/images/couple-investment-key-1288482.png" alt="" />
+              <div class="body__text">
+                <h1>Property Management Basic</h1>
+                <ul>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                      <defs>
+                        <style>
+                          .a {
+                            fill: #ce2029;
+                          }
+                        </style>
+                      </defs>
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(10.008 5.195)"
+                      />
+                      <path
+                        class="a"
+                        d="M11.813 1.094H11.1V.547a.547.547 0 00-1.094 0v.547H7.52V.547a.547.547 0 00-1.094 0v.547H3.965V.547a.547.547 0 00-1.094 0v.547h-.683A2.19 2.19 0 000 3.281v8.531A2.19 2.19 0 002.188 14h4.183a.547.547 0 000-1.094H2.188a1.1 1.1 0 01-1.094-1.094V3.281a1.1 1.1 0 011.094-1.093h.684v.547a.547.547 0 001.094 0v-.547h2.46v.547a.547.547 0 001.094 0v-.547h2.488v.547a.547.547 0 001.094 0v-.547h.711a1.1 1.1 0 011.094 1.094V6.4A.547.547 0 0014 6.4V3.281a2.19 2.19 0 00-2.187-2.187z"
+                      />
+                      <path
+                        class="a"
+                        d="M10.692 7.383a3.309 3.309 0 103.309 3.309 3.312 3.312 0 00-3.309-3.309zm0 5.523a2.215 2.215 0 112.215-2.215 2.217 2.217 0 01-2.215 2.215z"
+                      />
+                      <path
+                        class="a"
+                        d="M11.485 10.144h-.246V9.57a.547.547 0 00-1.094 0v1.121a.547.547 0 00.547.547h.793a.547.547 0 000-1.094z"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(7.629 5.195)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 7.574)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 5.195)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 7.574)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 9.953)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 9.953)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 5.195)"
+                      />
+                    </svg>
+                    Monday, July 22, 2019
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 11.327 14"
+                    >
+                      <defs>
+                        <style>
+                          .a {
+                            fill: #ce2029;
+                          }
+                        </style>
+                      </defs>
+                      <path
+                        class="a"
+                        d="M10.314 2.434a5.653 5.653 0 00-9.294 0 5.654 5.654 0 00-.658 5.209A4.452 4.452 0 001.179 9l4.112 4.83a.489.489 0 00.745 0L10.147 9a4.457 4.457 0 00.82-1.353 5.655 5.655 0 00-.653-5.213zM10.05 7.3a3.492 3.492 0 01-.646 1.058L5.665 12.75 1.922 8.361A3.494 3.494 0 011.275 7.3a4.676 4.676 0 01.547-4.309 4.674 4.674 0 017.683 0A4.677 4.677 0 0110.05 7.3z"
+                      />
+                      <path
+                        class="a"
+                        d="M5.668 2.904a2.741 2.741 0 102.741 2.741 2.744 2.744 0 00-2.741-2.741zm0 4.5A1.762 1.762 0 117.43 5.642a1.764 1.764 0 01-1.762 1.765z"
+                      />
+                    </svg>
+                    Sydney
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="course__inner--box">
+            <div class="course__inner--box__p">
+              <img
+                src="/images/adobe-photoshop-architecture-beach-955793.png"
+                alt=""
+              />
+              <div class="body__text">
+                <h1>Property Management Basic</h1>
+                <ul>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                      <defs>
+                        <style>
+                          .a {
+                            fill: #ce2029;
+                          }
+                        </style>
+                      </defs>
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(10.008 5.195)"
+                      />
+                      <path
+                        class="a"
+                        d="M11.813 1.094H11.1V.547a.547.547 0 00-1.094 0v.547H7.52V.547a.547.547 0 00-1.094 0v.547H3.965V.547a.547.547 0 00-1.094 0v.547h-.683A2.19 2.19 0 000 3.281v8.531A2.19 2.19 0 002.188 14h4.183a.547.547 0 000-1.094H2.188a1.1 1.1 0 01-1.094-1.094V3.281a1.1 1.1 0 011.094-1.093h.684v.547a.547.547 0 001.094 0v-.547h2.46v.547a.547.547 0 001.094 0v-.547h2.488v.547a.547.547 0 001.094 0v-.547h.711a1.1 1.1 0 011.094 1.094V6.4A.547.547 0 0014 6.4V3.281a2.19 2.19 0 00-2.187-2.187z"
+                      />
+                      <path
+                        class="a"
+                        d="M10.692 7.383a3.309 3.309 0 103.309 3.309 3.312 3.312 0 00-3.309-3.309zm0 5.523a2.215 2.215 0 112.215-2.215 2.217 2.217 0 01-2.215 2.215z"
+                      />
+                      <path
+                        class="a"
+                        d="M11.485 10.144h-.246V9.57a.547.547 0 00-1.094 0v1.121a.547.547 0 00.547.547h.793a.547.547 0 000-1.094z"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(7.629 5.195)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 7.574)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 5.195)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 7.574)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 9.953)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 9.953)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 5.195)"
+                      />
+                    </svg>
+                    Wednesday, July 24, 2019
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 11.327 14"
+                    >
+                      <defs>
+                        <style>
+                          .a {
+                            fill: #ce2029;
+                          }
+                        </style>
+                      </defs>
+                      <path
+                        class="a"
+                        d="M10.314 2.434a5.653 5.653 0 00-9.294 0 5.654 5.654 0 00-.658 5.209A4.452 4.452 0 001.179 9l4.112 4.83a.489.489 0 00.745 0L10.147 9a4.457 4.457 0 00.82-1.353 5.655 5.655 0 00-.653-5.213zM10.05 7.3a3.492 3.492 0 01-.646 1.058L5.665 12.75 1.922 8.361A3.494 3.494 0 011.275 7.3a4.676 4.676 0 01.547-4.309 4.674 4.674 0 017.683 0A4.677 4.677 0 0110.05 7.3z"
+                      />
+                      <path
+                        class="a"
+                        d="M5.668 2.904a2.741 2.741 0 102.741 2.741 2.744 2.744 0 00-2.741-2.741zm0 4.5A1.762 1.762 0 117.43 5.642a1.764 1.764 0 01-1.762 1.765z"
+                      />
+                    </svg>
+                    Sydney
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="course__inner--box">
+            <div class="course__inner--box__p">
+              <img src="/images/adult-casual-chef-1418355.png" alt="" />
+              <div class="body__text">
+                <h1>Property Management Basic</h1>
+                <ul>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                      <defs>
+                        <style>
+                          .a {
+                            fill: #ce2029;
+                          }
+                        </style>
+                      </defs>
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(10.008 5.195)"
+                      />
+                      <path
+                        class="a"
+                        d="M11.813 1.094H11.1V.547a.547.547 0 00-1.094 0v.547H7.52V.547a.547.547 0 00-1.094 0v.547H3.965V.547a.547.547 0 00-1.094 0v.547h-.683A2.19 2.19 0 000 3.281v8.531A2.19 2.19 0 002.188 14h4.183a.547.547 0 000-1.094H2.188a1.1 1.1 0 01-1.094-1.094V3.281a1.1 1.1 0 011.094-1.093h.684v.547a.547.547 0 001.094 0v-.547h2.46v.547a.547.547 0 001.094 0v-.547h2.488v.547a.547.547 0 001.094 0v-.547h.711a1.1 1.1 0 011.094 1.094V6.4A.547.547 0 0014 6.4V3.281a2.19 2.19 0 00-2.187-2.187z"
+                      />
+                      <path
+                        class="a"
+                        d="M10.692 7.383a3.309 3.309 0 103.309 3.309 3.312 3.312 0 00-3.309-3.309zm0 5.523a2.215 2.215 0 112.215-2.215 2.217 2.217 0 01-2.215 2.215z"
+                      />
+                      <path
+                        class="a"
+                        d="M11.485 10.144h-.246V9.57a.547.547 0 00-1.094 0v1.121a.547.547 0 00.547.547h.793a.547.547 0 000-1.094z"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(7.629 5.195)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 7.574)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 5.195)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 7.574)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 9.953)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 9.953)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 5.195)"
+                      />
+                    </svg>
+                    Monday, July 22, 2019
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 11.327 14"
+                    >
+                      <defs>
+                        <style>
+                          .a {
+                            fill: #ce2029;
+                          }
+                        </style>
+                      </defs>
+                      <path
+                        class="a"
+                        d="M10.314 2.434a5.653 5.653 0 00-9.294 0 5.654 5.654 0 00-.658 5.209A4.452 4.452 0 001.179 9l4.112 4.83a.489.489 0 00.745 0L10.147 9a4.457 4.457 0 00.82-1.353 5.655 5.655 0 00-.653-5.213zM10.05 7.3a3.492 3.492 0 01-.646 1.058L5.665 12.75 1.922 8.361A3.494 3.494 0 011.275 7.3a4.676 4.676 0 01.547-4.309 4.674 4.674 0 017.683 0A4.677 4.677 0 0110.05 7.3z"
+                      />
+                      <path
+                        class="a"
+                        d="M5.668 2.904a2.741 2.741 0 102.741 2.741 2.744 2.744 0 00-2.741-2.741zm0 4.5A1.762 1.762 0 117.43 5.642a1.764 1.764 0 01-1.762 1.765z"
+                      />
+                    </svg>
+                    Sydney
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="course__inner--box">
+            <div class="course__inner--box__p">
+              <img src="https://via.placeholder.com/640x400.png" alt="" />
+              <div class="body__text">
+                <h1>Property Management Basic</h1>
+                <ul>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                      <defs>
+                        <style>
+                          .a {
+                            fill: #ce2029;
+                          }
+                        </style>
+                      </defs>
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(10.008 5.195)"
+                      />
+                      <path
+                        class="a"
+                        d="M11.813 1.094H11.1V.547a.547.547 0 00-1.094 0v.547H7.52V.547a.547.547 0 00-1.094 0v.547H3.965V.547a.547.547 0 00-1.094 0v.547h-.683A2.19 2.19 0 000 3.281v8.531A2.19 2.19 0 002.188 14h4.183a.547.547 0 000-1.094H2.188a1.1 1.1 0 01-1.094-1.094V3.281a1.1 1.1 0 011.094-1.093h.684v.547a.547.547 0 001.094 0v-.547h2.46v.547a.547.547 0 001.094 0v-.547h2.488v.547a.547.547 0 001.094 0v-.547h.711a1.1 1.1 0 011.094 1.094V6.4A.547.547 0 0014 6.4V3.281a2.19 2.19 0 00-2.187-2.187z"
+                      />
+                      <path
+                        class="a"
+                        d="M10.692 7.383a3.309 3.309 0 103.309 3.309 3.312 3.312 0 00-3.309-3.309zm0 5.523a2.215 2.215 0 112.215-2.215 2.217 2.217 0 01-2.215 2.215z"
+                      />
+                      <path
+                        class="a"
+                        d="M11.485 10.144h-.246V9.57a.547.547 0 00-1.094 0v1.121a.547.547 0 00.547.547h.793a.547.547 0 000-1.094z"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(7.629 5.195)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 7.574)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 5.195)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 7.574)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(2.871 9.953)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 9.953)"
+                      />
+                      <circle
+                        class="a"
+                        cx=".547"
+                        cy=".547"
+                        r=".547"
+                        transform="translate(5.25 5.195)"
+                      />
+                    </svg>
+                    Friday, July 23, 2019
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 11.327 14"
+                    >
+                      <defs>
+                        <style>
+                          .a {
+                            fill: #ce2029;
+                          }
+                        </style>
+                      </defs>
+                      <path
+                        class="a"
+                        d="M10.314 2.434a5.653 5.653 0 00-9.294 0 5.654 5.654 0 00-.658 5.209A4.452 4.452 0 001.179 9l4.112 4.83a.489.489 0 00.745 0L10.147 9a4.457 4.457 0 00.82-1.353 5.655 5.655 0 00-.653-5.213zM10.05 7.3a3.492 3.492 0 01-.646 1.058L5.665 12.75 1.922 8.361A3.494 3.494 0 011.275 7.3a4.676 4.676 0 01.547-4.309 4.674 4.674 0 017.683 0A4.677 4.677 0 0110.05 7.3z"
+                      />
+                      <path
+                        class="a"
+                        d="M5.668 2.904a2.741 2.741 0 102.741 2.741 2.744 2.744 0 00-2.741-2.741zm0 4.5A1.762 1.762 0 117.43 5.642a1.764 1.764 0 01-1.762 1.765z"
+                      />
+                    </svg>
+                    Sydney
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="links">
+        <div class="links__inner">
+          <div class="links__inner--grid">
+            <img src="/images/logo.svg" alt="" />
+          </div>
+
+          <div class="links__inner--grid">
+            <ul>
+              <li><a href="#">Course Delivery Method</a></li>
+              <li><a href="#">Course Catalogue</a></li>
+              <li><a href="#">Course Calendar</a></li>
+              <li><a href="#">Certificate of registration</a></li>
+              <li><a href="#">Licensing course</a></li>
+              <li><a href="#">Diploma in Property Services</a></li>
+              <li><a href="#">Continuing Professional Development</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="footer__inner">
+        <ul class="footer__inner--links">
+          <li><a href="#">Advertise with us</a></li>
+          <li><a href="#">Agent admin</a></li>
+          <li><a href="#">Media sales</a></li>
+          <li><a href="#">Legal</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Site map</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+
+        <ul class="footer__inner--social">
+          <li>
+            <a href="#" aria-label="Twitter"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="Facebook"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script>
+      var slider = tns({
+        container: ".course__inner",
+        items: 1,
+        edgePadding: 0,
+        slideBy: "page",
+        mouseDrag: true,
+        autoplay: false,
+        navPosition: "bottom",
+        responsive: {
+          "350": {
+            items: 1,
+            controls: true,
+          },
+          "700": {
+            items: 2,
+          },
+          "950": {
+            items: 3,
+          },
+        },
+        controlsText: [
+          '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>',
+          '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>',
+        ],
+      });
+
+      function mobile() {
+        const btn = document.querySelector(".btn-mobile");
+        document.querySelector(".nav__mobile").classList.toggle("is-displayed");
+      }
+    </script>
+  </body>
+</html>
