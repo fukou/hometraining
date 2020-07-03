@@ -50,3 +50,10 @@
   -ms-flex-align: $align;
   align-items: $align;
 }
+
+@mixin flex-basis($width) {
+  -webkit-flex-basis: $width;
+  -moz-flex-basis: $width;
+  -ms-flex-basis: $width;
+  flex-basis: $width;
+}
